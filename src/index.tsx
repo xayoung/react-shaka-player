@@ -1,7 +1,7 @@
-import muxjs from 'mux.js';
 import React from 'react';
 import shaka from 'shaka-player/dist/shaka-player.ui';
 
+import muxjs from 'mux.js';
 interface MyWindow extends Window {
   muxjs: string;
   player: any

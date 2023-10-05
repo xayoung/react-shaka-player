@@ -4,19 +4,19 @@ A React component for [Shaka Player](https://github.com/google/shaka-player), an
 
 ## Installation
 
-`npm install react-shaka-player --save`
+`npm install shaka-react-video-player --save`
 
-`yarn add react-shaka-player`
+`yarn add shaka-react-video-player`
 
 ## Usage
 
-As seen in the example below, the CSS bundled with `shaka-player` has been imported separately. This is because `react-shaka-player` does not require any CSS internally, which keeps you in full control of the styling as if you were not using this React wrapper.
+As seen in the example below, the CSS bundled with `shaka-player` has been imported separately. This is because `shaka-react-video-player` does not require any CSS internally, which keeps you in full control of the styling as if you were not using this React wrapper.
 
 ```javascript
 import React from 'react';
-import ShakaPlayer from 'react-shaka-player';
-import 'react-shaka-player/dist/controls.css';
-import 'react-shaka-player/dist/themes.css';
+import ShakaPlayer from 'shaka-react-video-player';
+import 'shaka-react-video-player/dist/controls.css';
+import 'shaka-react-video-player/dist/themes.css';
 
 function App() {
   return (
@@ -49,7 +49,7 @@ The following is a more advanced setup to illustrate how you can integrate shaka
 
 ```javascript
 import React, { useRef, useEffect } from 'react';
-import ShakaPlayer from 'react-shaka-player';
+import ShakaPlayer from 'shaka-react-video-player';
 
 function App() {
   const controllerRef = useRef(null);
@@ -78,7 +78,7 @@ function App() {
 }
 ```
 
-Or check the [example](https://github.com/foridpathan/react-shaka-player/tree/master/example) in this repository.
+Or check the [example](https://github.com/foridpathan/shaka-react-video-player/tree/master/example) in this repository.
 
 ## Integrate with
 
@@ -88,7 +88,9 @@ Or check the [example](https://github.com/foridpathan/react-shaka-player/tree/ma
 import React from 'react';
 import dynamic from 'next/dynamic';
 
-const ShakaPlayer = dynamic(() => import('react-shaka-player'), { ssr: false });
+const ShakaPlayer = dynamic(() => import('shaka-react-video-player'), {
+  ssr: false
+});
 
 export default function Index() {
   return (

@@ -1,5 +1,5 @@
 {
-  "name": "react-shaka-player",
+  "name": "shaka-react-video-player",
   "version": "1.0.0",
   "main": "dist/cjs.js",
   "license": "MIT",
