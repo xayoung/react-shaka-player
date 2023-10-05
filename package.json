@@ -1,0 +1,58 @@
+{
+  "name": "react-shaka-player",
+  "version": "1.0.0",
+  "main": "dist/cjs.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && rollup -c",
+    "start": "rimraf dist && rollup -c --watch",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@rollup/plugin-alias": "^3.1.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@rollup/plugin-commonjs": "^21.1.0",
+    "@rollup/plugin-html": "^0.2.4",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "mux.js": "^6.3.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-bundle-html": "^0.2.2",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "shaka-player": "^4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "@rollup/plugin-typescript": "^11.1.4",
+    "@types/react": "^18.2.24",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "prettier": "^1.19.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-test-renderer": "^17.0.2",
+    "rimraf": "^3.0.2",
+    "tslib": "^2.6.2"
+  },
+  "peerDependencies": {
+    "react": "16 || 17 || 18",
+    "react-dom": "16 || 17 || 18"
+  },
+  "description": "A React component for [Shaka Player](https://github.com/google/shaka-player), an open-source JavaScript library for adaptive media.",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foridpathan/react-shaka-player.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/foridpathan/react-shaka-player/issues"
+  },
+  "homepage": "https://github.com/foridpathan/react-shaka-player#readme"
+}

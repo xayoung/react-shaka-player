@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+
+    "moduleResolution": "node",
+    "target": "es5",
+    "module": "es2015",
+    "lib": ["es5", "es2015", "es2016", "es2017", "dom"],
+    "strict": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "declarationDir": "types",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "keyofStringsOnly": true,
+    "skipLibCheck": true,
+    "declaration": false,
+
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./src", // Root directory of your source files
+    "esModuleInterop": true, // Enable ES module interop
+    "inlineSources": true, // Inline source maps in the compiled JavaScript files
+    "removeComments": false // Keep comments in the output (useful for licensing)
+    // "strict": true // Enable strict type-checking options
+  },
+  "include": ["src/**/*", "types/**/*"], // Include all files in the src directory and subdirectories
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist directories
+}
