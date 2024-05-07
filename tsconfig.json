@@ -16,7 +16,7 @@
     "skipLibCheck": true,
     "declaration": false,
     "paths": {
-      "shaka-react-video-player": ["types/shaka-react-video-player.d.ts"]
+      "shaka-react-video-player-x": ["types/shaka-react-video-player-x.d.ts"]
     },
     "outDir": "./dist", // Output directory for compiled files
     "rootDir": "./src", // Root directory of your source files
