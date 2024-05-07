@@ -1,5 +1,5 @@
 {
-  "name": "shaka-react-video-player",
+  "name": "shaka-react-video-player-x",
   "version": "1.0.0",
   "main": "dist/cjs.js",
   "license": "MIT",
@@ -20,7 +20,7 @@
     "rollup-plugin-bundle-html": "^0.2.2",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-serve": "^1.1.0",
-    "shaka-player": "^4.4.1"
+    "shaka-player": "^4.8.1"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
@@ -48,11 +48,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foridpathan/react-shaka-player.git"
+    "url": "git+https://github.com/xayoung/react-shaka-player.git"
   },
   "author": "",
   "bugs": {
-    "url": "https://github.com/foridpathan/react-shaka-player/issues"
+    "url": "https://github.com/xayoung/react-shaka-player/issues"
   },
-  "homepage": "https://github.com/foridpathan/react-shaka-player#readme"
+  "homepage": "https://github.com/xayoung/react-shaka-player#readme"
 }
