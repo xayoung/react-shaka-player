@@ -2161,11 +2161,6 @@ electron-to-chromium@^1.4.535:
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.540.tgz"
   integrity sha512-aoCqgU6r9+o9/S7wkcSbmPRFi7OWZWiXS9rtjEd+Ouyu/Xyw5RSq2XN8s5Qp8IaFOLiRrhQCphCIjAxgG3eCAg==
 
-eme-encryption-scheme-polyfill@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.npmjs.org/eme-encryption-scheme-polyfill/-/eme-encryption-scheme-polyfill-2.2.0.tgz"
-  integrity sha512-wfgRcR2cGAX0WKbPahhI13dr2mzFQ/rMnoDibRIdScQlv9S0rtnXd25XF17IUdNJw/voJoFpYQp33C3xkFnyEw==
-
 emoji-regex@^7.0.1:
   version "7.0.3"
   resolved "https://registry.npmjs.org/emoji-regex/-/emoji-regex-7.0.3.tgz"
@@ -4670,12 +4665,10 @@ set-value@^2.0.0, set-value@^2.0.1:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-shaka-player@4.13.0:
-  version "4.13.0"
-  resolved "https://registry.npmjs.org/shaka-player/-/shaka-player-4.13.0.tgz"
-  integrity sha512-FZToyYl7IXvt1oMEWVbU0tjWJpJ+oSYpUibNMxSqVQx2pLfSBDfEuodGJV+pRgiydYQ58+VFLftAylDx/Qvfdw==
-  dependencies:
-    eme-encryption-scheme-polyfill "^2.2.0"
+shaka-player@4.16.11:
+  version "4.16.11"
+  resolved "https://registry.npmjs.org/shaka-player/-/shaka-player-4.16.11.tgz"
+  integrity sha512-e87a3KtI69duaAm1omY2HwN9hq72ZN0j6mc4aBQgTrfJIBG8hZAw34tEPo6oqGR3IBpK86ASTmtrdUXCzt6yjg==
 
 shebang-command@^1.2.0:
   version "1.2.0"

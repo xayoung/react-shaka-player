@@ -1,6 +1,6 @@
 {
   "name": "shaka-react-video-player-x",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/cjs.js",
   "license": "MIT",
   "scripts": {
@@ -20,7 +20,7 @@
     "rollup-plugin-bundle-html": "^0.2.2",
     "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-serve": "^1.1.0",
-    "shaka-player": "4.13.0"
+    "shaka-player": "4.16.11"
   },
   "devDependencies": {
     "@babel/core": "^7.23.0",
