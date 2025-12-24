@@ -1,6 +1,6 @@
 {
   "name": "shaka-react-video-player-x",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "main": "dist/cjs.js",
   "license": "MIT",
   "scripts": {
@@ -38,8 +38,8 @@
     "tslib": "^2.6.2"
   },
   "peerDependencies": {
-    "react": "16 || 17 || 18",
-    "react-dom": "16 || 17 || 18"
+    "react": "16 || 17 || 18 || 19",
+    "react-dom": "16 || 17 || 18 || 19"
   },
   "description": "A React component for [Shaka Player](https://github.com/google/shaka-player), an open-source JavaScript library for adaptive media.",
   "directories": {
